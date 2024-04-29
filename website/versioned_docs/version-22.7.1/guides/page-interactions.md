@@ -440,6 +440,10 @@ const element = (await page.waitForSelector(
 )) as HTMLInputElement;
 ```
 
+CSS selectors can be found using the browser's dev-tools to inspect an element and open the Copy drop-down
+
+![CSS selector example](../assets/css-selector-example.png)
+
 ### Built-in selectors
 
 Built-in selectors are Puppeteer's own class of selectors for doing things CSS cannot. Every built-in selector starts with a prefix `.../` to assist Puppeteer in distinguishing between CSS selectors and a built-in.
